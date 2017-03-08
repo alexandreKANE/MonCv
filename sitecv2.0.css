@@ -1,0 +1,224 @@
+body{
+  margin: 0 0 0 0;
+
+}
+.body2{
+  font-family: 'Questrial', sans-serif;
+  margin: 0 4% 0 4%;
+
+}
+
+.header{
+background-color: rgb(56, 167, 230);
+height: 15%;
+font-family: 'Architects Daughter', cursive;
+
+
+}
+.iconepara{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+
+
+/*TITRES*/
+
+}
+h1{
+  border-bottom: 0.5px solid;
+text-align: center;
+color: white;
+padding-top: 14%;
+font-size: 56px;
+margin: 0 14% 10% 14%;
+color: rgb(231, 219, 138)
+box-shadow: 0 0 3px;
+
+}
+h2{
+text-align: center;
+color: rgb(113, 110, 110);
+font-size: 27px;
+margin-bottom: 7%;
+
+}
+h3{
+color: rgb(56, 167, 230);
+text-align: center;
+font-size: 27px;
+}
+h4{
+text-align: center;
+font-size: 27px;
+color: rgb(56, 167, 230);
+margin-top: 10%;
+
+}
+h5{
+margin: 17% 0 0 0;
+padding-bottom: 3%;
+ text-align: center;
+  font-size: 23px;
+margin-bottom: 0;
+color: rgb(65, 13, 190);
+}
+.sous_titre4{
+text-align: center;
+
+}
+
+
+
+/*HEADER*/
+
+header nav {
+   text-align: center;
+
+
+}
+
+header nav ul {
+    display: inline-block;
+    width: 900px;
+
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0 2% 0 0%;
+
+
+}
+
+header nav ul li a {
+      font-size: 18px;
+     text-decoration: none;
+     color: white;
+     height:10%;
+     width:5%;
+
+}
+header nav ul li a:hover{
+color: rgb(231, 219, 138);
+font-weight: bold;
+box-shadow: 0 0 3px;
+
+
+/*BODY*/
+
+}
+.photo{
+border-radius: 0 0 3px;
+overflow:hidden;
+   -webkit-border-radius:50px;
+   -moz-border-radius:50px;
+   border-radius:50px;
+   width:90px;
+   height:90px;
+   margin-left: 45%;
+   margin-top: 1px;
+
+}
+strong{
+  color: rgb(101, 8, 78);
+}
+#intro{
+  color: rgb(61, 59, 60);
+  margin: 6.5% 2.4% 10% 3%;
+padding-bottom: 7%;
+border-bottom: 1px solid rgb(2, 40, 105);
+}
+.text1{
+  text-align: center;
+  font-size: 16px;
+
+}
+u{
+  color: blue;
+}
+#formation{
+display: flex;
+justify-content: space-around;
+padding-bottom: 4%;
+
+}
+.partenaires{
+text-align: center;
+
+
+}
+.textformation{
+text-align: center;
+font-size: 19px;
+}
+
+.projetsz{
+
+
+}
+
+#projets{
+display: flex;
+justify-content: space-between;
+padding: 3% 3% 0 6%;
+}
+
+#compétences{
+  display: flex;
+  padding: 10% 3% 6% 3%;
+flex-flow: row;
+justify-content: space-around;
+
+}
+.H5{
+
+
+
+}
+.gauche{
+  margin-top: 7%;
+
+  text-align: left;
+}
+.droite{
+
+  text-align: right;
+}
+.titre{
+  text-align: center;
+  font-size: 22px;
+  color: rgb(101, 89, 6);
+  margin: 0;
+}
+.1{
+
+  text-align: center;
+}
+
+#contact{
+  font-size: 17px;
+font-family: 'Architects Daughter', cursive;
+margin-left: 0;
+margin-right: 0;
+display: flex;
+margin-top: 10%;
+padding-top: 17%;
+padding-bottom: 10%;
+justify-content: space-around;
+align-items: baseline;
+
+background-color: rgb(232, 231, 232);
+
+
+}
+.geo{
+  text-align: center;
+}
+.tel{
+  text-align: center;
+}
+.msg{
+  text-align: center;
+}

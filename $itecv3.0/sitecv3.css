@@ -1,0 +1,179 @@
+/*PLACEMENT DIV*/
+body{
+  margin: 0 0 0 0;
+}
+.body{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#container{
+  width: 67.2355%;
+height: 100%;
+position: absolute;
+/*COULEUR DE BASE rgb(227, 27, 71);*/  background:url('images/dark-brick-wall-1920x1080.png');
+z-index: 1;
+right: 0;
+}
+#nav_left{
+position: fixed;
+height: 100%;
+width: 426px;
+z-index: 100;
+background: url('images/montagne0.jpg')no-repeat;
+background-size: cover;
+font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.amp {
+  font-family: "Baskerville";
+  font-style: italic
+}
+/*CONTENU*/
+h1{
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  color: white;
+  margin-bottom:0 ;
+
+}
+h2{
+  text-align: center;
+  font-family: 'Tillana', cursive;
+  color:rgb(2, 111, 70);
+
+
+}
+.subtitle-h2{
+text-align: center;
+color: black;
+font-family: 'Architects Daughter', cursive;
+}
+
+hr{
+  border-color: rgb(227, 27, 71);
+  border-width: 1.9px;
+  max-width: 50px;
+
+}
+.nas_div{
+  margin-left: auto;
+   margin-right: auto;
+border: 2px solid grey;
+border-radius: 50px;
+z-index: 1111;
+width: 80px;
+background: url('images/nas.jpg') no-repeat;
+background-size: contain;
+height: 82px;
+}
+.nas_img{
+}
+
+/*NAVBARRE*/
+
+header nav {
+   text-align: center;
+   padding-bottom: 2%;
+background: url('images/blizzard-1920x1080.png');
+
+}
+
+header nav ul {
+    display: inline-block;
+    width: 100%;
+    font-size: 85%;
+    padding: 0;
+}
+
+header nav ul li {
+   display: inline-block;
+   vertical-align: middle;
+   list-style: none;
+   padding: 0 2% 0 2%;
+   font-family: 'Tillana', cursive;
+
+}
+
+header nav ul li a {
+   display: inline-block;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 17px;
+     color:rgb(51, 52, 52);
+
+}
+
+header nav ul li a:hover {
+color:rgb(2, 111, 70);
+   display: inline-block;
+   background-position: top center;
+
+}
+
+
+header nav ul li#logo a:hover {
+   background-image: url(..//images/logo-hover.png);
+   display: inline-block;
+   vertical-align: center;
+}
+.reseaux-sociaux{
+justify-content: center;
+ display: flex;
+}
+.linkedin{
+  text-align: center;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 3000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 3000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 3000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+}
+.twitter{
+  text-align: center;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 3000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 3000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 3000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+}
+.image-upto{
+  text-align: center;
+  margin: 20px;
+
+  }
+
+  @-webkit-keyframes spin {
+    from {
+      -webkit-transform:rotate(0deg);
+    }
+
+    to {
+      -webkit-transform:rotate(360deg);
+    }
+  }
+}
+/*TEXTE*/
+
+.texte-formation{
+  padding-left: 12px;
+  color: white;
+  font-family: 'Tillana', cursive;
+font-size: 16px;
+
+}
